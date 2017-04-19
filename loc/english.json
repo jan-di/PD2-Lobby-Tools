@@ -1,0 +1,13 @@
+{
+	"lobbytools_chat_message_by_host" : "%s",
+	"lobbytools_chat_message_by_peer" : "%s (%s)",
+	
+	"lobbytools_keybind_forceready_name" 		: "Force Ready",
+	"lobbytools_keybind_forceready_desc" 		: "",
+	"lobbytools_chat_forceready" 				: "Started the game",
+	"lobbytools_chat_forceready_not_synched" 	: "FR: player %s is not synched",
+	
+	"lobbytools_keybind_instantrestart_name" 	: "Instant Restart",
+	"lobbytools_keybind_instantrestart_desc" 	: "",
+	"lobbytools_chat_instantrestart" 			: "Restarted the game"
+}	

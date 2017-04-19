@@ -3,7 +3,7 @@
 	"description" : "",
 	"author" : "jan-di",
 	"contact" : "mail@jand.one",
-	"version" : "0.1",
+	"version" : "1.0",
 	"pre_hooks" : [
 		{ 	"hook_id" 		: "lib/managers/menumanager",
 			"script_path" 	: "lua/mod_init.lua"

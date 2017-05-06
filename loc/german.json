@@ -1,0 +1,14 @@
+{
+	"lobbytools_chat_message_by_host" : "%s",
+	"lobbytools_chat_message_by_peer" : "%s (%s)",
+	
+	"lobbytools_keybind_forceready_name" 		: "Erzwinge Start",
+	"lobbytools_keybind_forceready_desc" 		: "",
+	"lobbytools_chat_forceready" 				: "Spiel gestarted",
+	"lobbytools_chat_forceready_notsynched" 	: "Spieler %s ist nicht synchronisiert!",
+	
+	"lobbytools_keybind_instantrestart_name" 	: "Sofortiger Neustart",
+	"lobbytools_keybind_instantrestart_desc" 	: "",
+	"lobbytools_chat_instantrestart" 			: "Spiel neugestartet",
+	"lobbytools_hint_instantrestart" 			: "Spiel neugestartet"
+}	

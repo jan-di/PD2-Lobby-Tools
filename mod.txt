@@ -3,7 +3,13 @@
 	"description" : "",
 	"author" : "jan-di",
 	"contact" : "mail@jand.one",
-	"version" : "1.0",
+	"version" : "1.1",
+	"updates" : [
+		{
+			"revision" : 1,
+			"identifier" : "lobbytools"
+		}
+	],
 	"pre_hooks" : [
 		{ 	"hook_id" 		: "lib/managers/menumanager",
 			"script_path" 	: "lua/mod_init.lua"

@@ -1,5 +1,3 @@
 local Mod = _G.LobbyToolsMod
 
-if Mod:check_action(Mod.actions.forceready) then
-	Mod:send_action(Mod.actions.forceready)
-end
+Mod:request_action(Mod.actions.force_ready)

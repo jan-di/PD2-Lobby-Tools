@@ -18,7 +18,10 @@
 		},
 		{	"hook_id" 		: "lib/managers/localizationmanager",
 			"script_path" 	: "lua/hook_localizationmanager.lua"
-		}
+		},
+		{	"hook_id" 		: "lib/states/ingamewaitingforplayers",
+			"script_path" 	: "lua/hook_ingamewaitingforplayers.lua"
+		}	
 	],
 	"keybinds" : [
 		{

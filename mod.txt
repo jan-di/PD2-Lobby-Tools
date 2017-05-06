@@ -3,10 +3,10 @@
 	"description" : "",
 	"author" : "jan-di",
 	"contact" : "mail@jand.one",
-	"version" : "1.1",
+	"version" : "1.2",
 	"updates" : [
 		{
-			"revision" : 1,
+			"revision" : 2,
 			"identifier" : "lobbytools"
 		}
 	],

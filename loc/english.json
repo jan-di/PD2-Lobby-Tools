@@ -4,10 +4,11 @@
 	
 	"lobbytools_keybind_forceready_name" 		: "Force Ready",
 	"lobbytools_keybind_forceready_desc" 		: "",
-	"lobbytools_chat_forceready" 				: "Started the game",
+	"lobbytools_chat_forceready" 				: "Game started",
 	"lobbytools_chat_forceready_notsynched" 	: "Player %s is not synched!",
 	
 	"lobbytools_keybind_instantrestart_name" 	: "Instant Restart",
 	"lobbytools_keybind_instantrestart_desc" 	: "",
-	"lobbytools_chat_instantrestart" 			: "Restarted the game"
+	"lobbytools_chat_instantrestart" 			: "Game restarted",
+	"lobbytools_hint_instantrestart" 			: "Game restarted"
 }	

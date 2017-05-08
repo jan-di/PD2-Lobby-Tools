@@ -11,6 +11,7 @@ Mod.actions = {
 
 Mod.messages = {
 	do_action						= "b1a7804d-6d0e-4a60-a034-4170287fa0e0",
+	show_hint						= "60fa37df-1cf0-4d45-aa49-4e7ae8d691f6"
 }
 
 Mod.delayed_calls = {

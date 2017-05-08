@@ -12,5 +12,7 @@ Hooks:Add("NetworkReceivedData", Mod.hooks.NetworkReceivedData, function(sender,
 				break
 			end
 		end
+	elseif id == Mod.messages.show_hint then
+		if managers.hud and data ~= nil then managers.hud:show_hint({text = Mod:_localize(data)}) end
 	end
 end)

@@ -1,8 +1,17 @@
 _G.LobbyToolsMod = _G.LobbyToolsMod or {}
 local Mod = _G.LobbyToolsMod
 
-Mod._root_path 			= ModPath
-Mod._localization_path 	= Mod._root_path .. "loc/"
+Mod.long_name	= "LobbyTools"
+Mod.short_name	= "LT"
+Mod.root_path 	= ModPath
+Mod.loc_path 	= Mod.root_path .. "loc/"
+
+Mod.channel = {
+	info 		= {	level = 3, 	prefix = "Info"		},
+	warning 	= {	level = 2, 	prefix = "Warning"	},
+	error 		= {	level = 1, 	prefix = "Error"	}
+}
+Mod.log_channel = Mod.channel.info
 
 Mod.actions = {
 	force_ready						= {id = "215d6054-3383-4044-85c5-174b8f8cef0d", blocked = false},

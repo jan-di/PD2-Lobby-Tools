@@ -1,7 +1,14 @@
 local Mod = _G.LobbyToolsMod
 
-function Mod:localize(localize_text)
-	if managers.localization then return managers.localization:text(localize_text) end
+function Mod:localize(string_id)
+	if managers.localization then 
+		local localized_text = managers.localization:text(string_id)
+		if localized_text == "ERROR: " .. string_id then
+			self:log(self.channel.warning, string.format("Could not localize string '%s'", string_id))
+			localized_text = "[" .. string_id .. "]"
+		end
+		return localized_text
+	end
 end
 
 function Mod:log(channel, data)

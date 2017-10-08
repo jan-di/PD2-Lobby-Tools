@@ -4,6 +4,8 @@
 	"author" : "jan-di",
 	"contact" : "mail@jand.one",
 	"version" : "1.2",
+	"blt_version" : 2,
+	"color" : "249 120 44",
 	"updates" : [
 		{
 			"revision" : 2,
